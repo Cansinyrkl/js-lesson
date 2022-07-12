@@ -1,0 +1,12 @@
+"use strict";
+let dataSet = new Set();
+dataSet.add("Javascript");
+dataSet.add("Ecmascript6");
+dataSet.add("Eğitim setine");
+dataSet.add("hoşgeldiniz");
+dataSet.add("Bu derste set nesnesini işleyeceğiz");
+$("#result").innerHTML = dataSet.size + "<br>";
+dataSet.delete("hoşgeldiniz");
+$("#result").innerHTML += dataSet.size + "<br>";
+dataSet.clear();
+$("#result").innerHTML += dataSet.size + "<br>";
